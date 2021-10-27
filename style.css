@@ -86,7 +86,8 @@ text-align: center;}
 .question {font-size: smaller;
 font-weight: 700;
 color: rgb(179, 122, 0);
-opacity: 75%;}
+opacity: 75%;
+text-align: center;}
 
 .row {
     display: flex;
