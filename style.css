@@ -134,6 +134,13 @@ padding-bottom: 24px;}
           flex: 50%;
           max-width: 45%;
         }
+        .Project1{
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 4px;
+          padding-right: 4px;
+      padding-bottom: 50px;
+      }
       }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
