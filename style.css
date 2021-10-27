@@ -138,3 +138,13 @@ padding-left: 0;}
   .endnote{text-align: center;
     font-size: 12px;}
 
+.peefive { flex: 100%;
+    align-items: center;
+        max-width: 800px;
+        height: 800px;
+        margin-bottom: 32px;
+
+}
+
+
+
