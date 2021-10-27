@@ -14,7 +14,8 @@ header {text-align: center;
     padding-left: 75px;
     display: block;
     color: black;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
+    padding-top: 48px ;
 
 background-color: rgb(255, 255, 255);}
 
@@ -52,7 +53,8 @@ nav a {color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 36px;
-    padding: 24px;}
+    padding-bottom: 24px;
+    }
 
  .name{font-weight: normal;
        font-size:  14px;
@@ -71,7 +73,9 @@ nav a {color: black;
         margin-left: auto;
         margin-right: auto;
         padding-left: 56px;
-        padding-right: 56px;}
+        padding-right: 56px;
+    padding-bottom: 50px;
+    }
 
 .projecttitle {padding-bottom: 20px;
                 font-size: 18px;
@@ -81,13 +85,16 @@ nav a {color: black;
 
 
 .projecttext {padding-bottom: 20px;
-text-align: center;}
+text-align: center;
+padding-top: 24px;}
 
 .question {font-size: smaller;
 font-weight: 700;
 color: rgb(179, 122, 0);
 opacity: 75%;
-text-align: center;}
+text-align: center;
+padding-top: 24px;
+padding-bottom: 24px;}
 
 .row {
     display: flex;
