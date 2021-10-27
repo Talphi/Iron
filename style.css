@@ -67,7 +67,7 @@ nav a {color: black;
  .section {
     padding:24px;
     padding-bottom: 12px;
-    margin-left: 24px;
+    margin-left: 0px;
     margin-right: 24px;}
 
 .Project1{
@@ -119,6 +119,12 @@ padding-bottom: 24px;}
     vertical-align: middle;
     width: 100%;
   }
+
+  .peefive { flex: 100%;
+    align-items: center;
+        max-width: 100%;
+        height: 800px;
+        margin-bottom: 32px;}
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 1000px) {
@@ -147,19 +153,27 @@ padding-left: 0;}
       max-width: 100%;
     }
 
+    @media screen and (max-width: 400px) {
+      nav {text-align-last: center;
+      padding-left: 0;}
+          .title{text-align: center;}
+          .name{text-align: center;}
+          .column {
+            flex: 100%;
+            max-width: 100%;
+            margin: auto
+          }
+          .peefive { flex: 100%;
+            align-items: center;
+                max-width: 100%;
+                height: 200px;
+                object-fit: scale-down;
+                margin-bottom: 32px;}
     
   }
 
-  .endnote{text-align: center;
-    font-size: 12px;}
+  
 
-.peefive { flex: 100%;
-    align-items: center;
-        max-width: 1600px;
-        height: 800px;
-        margin-bottom: 32px;
-
-}
 
 .logo{display: flex;}
 .wrapper {
@@ -369,4 +383,7 @@ padding-left: 0;}
     transform: scale(0.9, 1);
   }
 }
+
+.endnote{text-align-last: center;
+  font-size: 12px;}
 
