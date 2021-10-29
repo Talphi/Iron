@@ -105,11 +105,13 @@ padding-bottom: 24px;}
     margin-right: auto;
     flex-wrap: wrap;
     padding-left: 10px;
-    padding-right: 10px ;
+    padding-right: 10px;
+    justify-content: center;
   }
 
 .row img{flex: 100%;
-max-width: 100%;}
+max-width: 800px;
+}
   
   /* Create four equal columns that sits next to each other */
   .column {
@@ -131,6 +133,9 @@ max-width: 100%;}
       flex: 33%;
       max-width: 30%;
     }
+    .row img{flex: 100%;
+      max-width: 100%;
+      }
   }
 
     /* Responsive layout - makes a two column-layout instead of four columns */
