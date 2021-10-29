@@ -70,7 +70,8 @@ nav a {color: black;
     padding:24px;
     padding-bottom: 12px;
     margin-left: 24px;
-    margin-right: 24px;}
+    margin-right: 24px;
+  align-content: center;}
 
 .Project1{
         margin-left: auto;
@@ -94,7 +95,15 @@ nav a {color: black;
 
 .projecttext {padding-bottom: 20px;
 text-align: center;
-padding-top: 24px;}
+padding-top: 24px;
+max-width: 100%;}
+
+.ramblingtext {padding-bottom: 20px;
+  text-align: center;
+  padding-top: 24px;
+  max-width: 100%;
+margin-left: 300px;
+margin-right: 300px;}
 
 .question {font-size: smaller;
 font-weight: 700;
@@ -138,6 +147,16 @@ opacity: 45%;}
     width: 100%;
   }
   
+   /* Responsive layout - makes a two column-layout instead of four columns */
+   @media screen and (max-width: 1250px) {
+     .ramblingtext {padding-bottom: 20px;
+    text-align: center;
+    padding-top: 24px;
+    max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;}
+}
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 1000px) {
     .column {
@@ -147,6 +166,13 @@ opacity: 45%;}
     .row img{flex: 100%;
       max-width: 100%;
       }
+
+      .ramblingtext {padding-bottom: 20px;
+        text-align: center;
+        padding-top: 24px;
+        max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;}
   }
 
     /* Responsive layout - makes a two column-layout instead of four columns */
