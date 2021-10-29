@@ -85,6 +85,11 @@ nav a {color: black;
             font-weight: bold;
         text-align: center;}
 
+        .ramblingstitle {padding-bottom: 20px;
+          font-size: 18px;
+      font-weight: bold;
+  text-align: center;}
+
 
 
 .projecttext {padding-bottom: 20px;
@@ -112,6 +117,12 @@ padding-bottom: 24px;}
 .row img{flex: 100%;
 max-width: 800px;
 }
+
+.coverimage{transition:0.3s ease-in-out; ;}
+.coverimage:hover{transform: scale(1.1);
+transition: 0.3s ease-in-out;
+border-radius: 40px;
+opacity: 45%;}
   
   /* Create four equal columns that sits next to each other */
   .column {
