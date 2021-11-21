@@ -105,6 +105,9 @@ max-width: 100%;}
 margin-left: 300px;
 margin-right: 300px;}
 
+
+
+
 .question {font-size: smaller;
 font-weight: 700;
 color: rgb(179, 122, 0);
@@ -124,8 +127,10 @@ padding-bottom: 24px;}
   }
 
 .row img{flex: 100%;
-max-width: 800px;
+max-width: 1000px;
+
 }
+
 
 .coverimage{transition:0.3s ease-in-out; ;}
 .coverimage:hover{transform: scale(1.1);
@@ -146,6 +151,8 @@ opacity: 45%;}
     vertical-align: middle;
     width: 100%;
   }
+
+  
   
    /* Responsive layout - makes a two column-layout instead of four columns */
    @media screen and (max-width: 1250px) {
